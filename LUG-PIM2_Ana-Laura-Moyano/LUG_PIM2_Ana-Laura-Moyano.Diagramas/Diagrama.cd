@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.BLL.CanalBLL">
+    <Position X="1.25" Y="1.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.BLL.OrdenesBLL">
+    <Position X="1.25" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.BLL.PaqueteBLL">
+    <Position X="3.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.BLL.ClienteBLL">
+    <Position X="3.75" Y="1.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.AbstractDal&lt;T&gt;">
+    <Position X="10" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="commandBuilder" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.CanalDAL">
+    <Position X="6.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.ClienteDAL">
+    <Position X="13.25" Y="1.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.OrdenDAL">
+    <Position X="14.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.PaqueteDAL">
+    <Position X="16.25" Y="1.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.PaquetesCanalesDAL">
+    <Position X="11" Y="3.5" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.SqlCommands.CanalSqlCommandBuilder" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.SqlCommands.ClienteSqlCommandBuilder" BaseTypeListCollapsed="true">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.SqlCommands.OrdenSqlCommandBuilder" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.SqlCommands.PaquetesCanalesSqlCommandBuilder" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.DAL.SqlCommands.PaqueteSqlCommandBuilder" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.Modelos.Canal">
+    <Position X="17.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.Modelos.Cliente">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.Modelos.Orden">
+    <Position X="19.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.Modelos.Paquete">
+    <Position X="19.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LUG_PIM2_Ana_Laura_Moyano.Modelos.PaquetesCanales">
+    <Position X="21" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="LUG_PIM2_Ana_Laura_Moyano.DAL.IDal&lt;T&gt;">
+    <Position X="19.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="LUG_PIM2_Ana_Laura_Moyano.DAL.SqlCommands.ISqlCommandBuilder&lt;T&gt;">
+    <Position X="8.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="LUG_PIM2_Ana_Laura_Moyano.Modelos.FormasDePago">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

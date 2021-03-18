@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40CE7C63-8C89-40EA-9C43-3394CDD15B6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LUG_PIM2_Ana_Laura_Moyano.Diagramas</RootNamespace>
+    <AssemblyName>LUG_PIM2_Ana-Laura-Moyano.Diagramas</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LUG_PIM2_Ana-Laura-Moyano.BLL\LUG_PIM2_Ana-Laura-Moyano.BLL.csproj">
+      <Project>{d9b18227-9c9e-4a60-9ca0-e5735eee458f}</Project>
+      <Name>LUG_PIM2_Ana-Laura-Moyano.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LUG_PIM2_Ana-Laura-Moyano.DAL\LUG_PIM2_Ana-Laura-Moyano.DAL.csproj">
+      <Project>{4cc4b1b0-d3e8-449c-a9ac-d9c99a388b72}</Project>
+      <Name>LUG_PIM2_Ana-Laura-Moyano.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LUG_PIM2_Ana-Laura-Moyano.Modelos\LUG_PIM2_Ana-Laura-Moyano.Modelos.csproj">
+      <Project>{20bd4612-3742-4b10-8140-5ed3a894b72a}</Project>
+      <Name>LUG_PIM2_Ana-Laura-Moyano.Modelos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrama.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
